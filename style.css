@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+ background-color: antiquewhite;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+nav{
+font-family: 'ubuntu' sans-serif;
+color: white;
+}
+nav ul
+{
+  display: flex;
+  list-style-type: none;
+  height: 65px;
+  align-items: center;
+  background-color: black;
+}
+.brand img
+{
+  width: 55px;
+  padding: 0 8px;
+}
+.brand
+{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 5px;
+}
+nav ul li
+{
+  padding: 0 12px;
+  
+}
+.container
+{
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url(https://cdn.citymapia.com/kottayam/guppy-the-movie/1029/portfolio.jpg?biz=388);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 100%;
+}
+.bottom
+{
+  position: sticky;
+  height: 80px;
+  background-color: black;
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#myProgressBar
+{
+   width: 80vw;
+}
+
+.songItem
+{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: red;
+}
+.time
+{
+  margin:  0 23px;
+  cursor: pointer;
+}
+.time i{
+  cursor: pointer;
+}
+.songInfo
+{
+  position: absolute;
+  left: 10vw; 
+  justify-content: center;
+  align-items: center;
+}
+.songInfo img
+{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
